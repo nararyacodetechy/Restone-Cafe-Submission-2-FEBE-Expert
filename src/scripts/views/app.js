@@ -25,7 +25,7 @@ class App {
     this._content.innerHTML = await page.render();
     await page.afterRender();
 
-    const mainContent = document.querySelector('#explore-cafe');
+    const mainContent = document.querySelector('#mainContent');
     const skipLink = document.querySelector('.skip-link');
     skipLink.addEventListener('click', (e) => {
       e.preventDefault();
