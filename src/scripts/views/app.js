@@ -24,6 +24,14 @@ class App {
     const page = Routes[url];
     this._content.innerHTML = await page.render();
     await page.afterRender();
+
+    const mainContent = document.querySelector('#explore-cafe');
+    const skipLink = document.querySelector('.skip-link');
+    skipLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      mainContent.scrollIntoView({ behavior: 'smooth' });
+      skipLink.blur();
+    });
   }
 }
 

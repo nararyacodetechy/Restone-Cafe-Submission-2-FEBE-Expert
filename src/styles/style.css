@@ -64,6 +64,8 @@ header a:hover {
 
 header .logo {
     margin-left: 20px;
+    padding: 11px;
+    cursor: pointer;
 }
 
 header .canvas-menu {
@@ -76,6 +78,10 @@ header nav {
     top: 0;
     left: 0;
     position: absolute;
+}
+
+header nav .links-nav a {
+    padding: 12px;
 }
 
 header nav.open {

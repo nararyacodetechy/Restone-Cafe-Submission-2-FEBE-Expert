@@ -1,4 +1,4 @@
-.go-explore-cafe {
+.skip-link {
     position: absolute;
     top: -50px;
     left: 20px;
@@ -8,10 +8,10 @@
     z-index: 100;
 }
 
-.go-explore-cafe:focus {
+.skip-link:focus {
     top: 80px;
 }
 
-.go-explore-cafe:hover {
+.skip-link:hover {
     background-color: #de3c47;
 }
