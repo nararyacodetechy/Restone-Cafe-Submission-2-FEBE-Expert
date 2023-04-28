@@ -1,0 +1,17 @@
+.go-explore-cafe {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    background-color: #bf1722;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.go-explore-cafe:focus {
+    top: 80px;
+}
+
+.go-explore-cafe:hover {
+    background-color: #de3c47;
+}
